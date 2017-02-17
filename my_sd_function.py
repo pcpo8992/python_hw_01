@@ -16,4 +16,4 @@ def GetSD(x):
     for xi in x:
         Variance += math.pow( (xi - GetAvg(x)), 2)
 
-    return math.sqrt(Variance / len(x)
+    return math.sqrt(Variance / len(x))
